@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Controller for installer 
+ * Controller for installer
  *
  * @author Aljaž Pintar <pintar.aljaz@gmail.com>
  * @copyright Copyright &copy; 2013 Aljaž Pintar
@@ -14,7 +14,7 @@ class InstallController extends Controller
 	/**
 	 * Default action for InstallController
 	 * Function first checks if connection can be established to database. If it cannot be established,
-	 * it means we can proceed with installation. Othewise we redirect to redirectUrl. 
+	 * it means we can proceed with installation. Otherwise we redirect to redirectUrl.
 	 * On form post, database configuration is written to file in config folder, database is created if
 	 * it is not already present and sql script is run to create tables and other useful things :)
 	 */
